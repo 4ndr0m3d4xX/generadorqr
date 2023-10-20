@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.titulo-destacado {
+    font-size: 24px;
+    color: transparent;
+    background: linear-gradient(90deg, #72008f, #7FFFD4);
+    -webkit-background-clip: text;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#inputData {
+    background-color: #333;
+    color: white;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+    flex: 1;
+}
+
+button {
+    background-color: #00A2E8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#qrcode-container {
+    padding: 10px;
+    background-color: white;
+}
